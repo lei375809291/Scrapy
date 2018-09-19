@@ -1,0 +1,39 @@
+1536829758534	geckodriver	INFO	geckodriver 0.21.0
+1536829758636	geckodriver	INFO	Listening on 127.0.0.1:64861
+1536829761618	mozrunner::runner	INFO	Running command: "D:\\QQ\\Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\toshiba\\AppData\\Local\\Temp\\rust_mozprofile.iD4nq7lV1lOJ"
+*** You are running in headless mode.
+1536829768790	Marionette	INFO	Listening on port 64869
+1536829768965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536829769029	Marionette	DEBUG	[4294967297] Frame script loaded
+1536829769032	Marionette	DEBUG	[4294967297] Frame script registered
+1536829770360	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1536829772016	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: https://img08.zhaopin.cn/2014/head_foot/js/head_foot.js, line 195: ReferenceError: jQuery is not defined
+1536829775818	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://jobs.zhaopin.com/344681232250004.htm
+1536829776395	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://jobs.zhaopin.com/344681232250004.htm
+1536829967175	geckodriver	INFO	geckodriver 0.21.0
+1536829967197	geckodriver	INFO	Listening on 127.0.0.1:64999
+1536829970214	mozrunner::runner	INFO	Running command: "D:\\QQ\\Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\toshiba\\AppData\\Local\\Temp\\rust_mozprofile.ELHvFWQsKKv3"
+*** You are running in headless mode.
+1536829975317	Marionette	INFO	Listening on port 65008
+1536829975655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536829975702	Marionette	DEBUG	[6442450945] Frame script loaded
+1536829975705	Marionette	DEBUG	[6442450945] Frame script registered
+1536829976915	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536829977642	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: https://img08.zhaopin.cn/2014/head_foot/js/head_foot.js, line 195: ReferenceError: jQuery is not defined
+1536829979983	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://jobs.zhaopin.com/344681232250004.htm
+1536829981093	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://jobs.zhaopin.com/344681232250004.htm
+1536830079076	geckodriver	INFO	geckodriver 0.21.0
+1536830079098	geckodriver	INFO	Listening on 127.0.0.1:65106
+1536830082158	mozrunner::runner	INFO	Running command: "D:\\QQ\\Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\toshiba\\AppData\\Local\\Temp\\rust_mozprofile.xP1THtgh1V4Q"
+*** You are running in headless mode.
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+1536830087039	Marionette	INFO	Listening on port 65124
+1536830087109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536830087182	Marionette	DEBUG	[6442450945] Frame script loaded
+1536830087186	Marionette	DEBUG	[6442450945] Frame script registered
+1536830088580	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536830089476	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536830091178	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://jobs.zhaopin.com/344681232250004.htm
+1536830094222	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://jobs.zhaopin.com/344681232250004.htm
