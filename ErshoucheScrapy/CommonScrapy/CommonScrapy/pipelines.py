@@ -9,12 +9,12 @@ import sqlite3
 class CommonscrapyPipeline(object):
     def __init__(self):
         """"""
-        self.conn=sqlite3.connect('ershouche.db')
+        self.conn=sqlite3.connect('ershouche2.db')
         self.cursor=self.conn.cursor()
-        self.cursor.execute('create table IF NOT EXISTS tongcheng(name_c text,data_c text,money text);')
+        self.cursor.execute('create table IF NOT EXISTS tongcheng(name_a,name_c text,data_c text,money text);')
         self.conn.commit()
     def process_item(self, item, spider):
-        sql_str = "INSERT INTO tongcheng VALUES ('"+item["name_c"]+"','"+item["data_c"]+"','"+item["money"]+"')"
+        sql_str = "INSERT INTO tongcheng VALUES ('"+item["name_a"]+"','"+item["name_c"]+"','"+item["data_c"]+"','"+item["money"]+"')"
         self.cursor.execute(sql_str)
         self.conn.commit()
         return item

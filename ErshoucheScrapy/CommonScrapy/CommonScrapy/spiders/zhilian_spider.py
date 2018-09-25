@@ -16,7 +16,7 @@ class ZhilianSpiderSpider(scrapy.Spider):
             yield Request(next_url,callback=self.parse_xq)
 
     def parse_xq(self, response):
-        for i in range(2,165):
+        for i in range(2,70):
             rs1=response.xpath('//ul/li[{}]/div[2]/a/h1/font/text()'.format(i)).extract()
             rs = response.xpath('//ul/li[{}]/div[2]/a/h1/text()'.format(i)).extract()
             rl0=''
@@ -34,7 +34,8 @@ class ZhilianSpiderSpider(scrapy.Spider):
             for r3 in rs3:
                 rl3+=r3
             item=ErshoucheItem()
-            item['name_c']=rl+rl0.replace(' ','')
+            item['name_a']=rl.replace(' ','').replace(r'\r\n','')
+            item['name_c']=rl0.replace(' ','').replace(r'\r\n','')
             item['data_c']=rl2
             item['money']=rl3
 

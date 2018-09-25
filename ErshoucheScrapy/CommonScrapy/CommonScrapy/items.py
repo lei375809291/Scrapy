@@ -14,6 +14,7 @@ import scrapy
 #     # def process_item(self,job_des):
 #     job_des=scrapy.Field()
 class ErshoucheItem(scrapy.Item):
+    name_a=scrapy.Field()
     name_c=scrapy.Field()
     data_c=scrapy.Field()
     money=scrapy.Field()
